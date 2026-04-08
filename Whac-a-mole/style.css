@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.grid {
+    display: flex;
+    width: 70%;
+    max-width: 768px;
+    height: 80%;
+    max-height: 768px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+    .square {
+        flex: 33%;
+        background-color: antiquewhite;
+        border: .5px solid black;
+        height: 33%;
+    }
+}
